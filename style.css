@@ -1,5 +1,30 @@
-* {
-    background-color: blueviolet;
+
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(32, 133, 101);
+}
+
+p, ul, ol, li{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ingredientsList {
+    border: solid 5px rgb(7, 100, 66);
+    background-color: rgb(182, 224, 208);
+}
+
+.stepsList{
+    border: solid 5px rgb(7, 100, 66);
+    background-color: rgb(182, 224, 208);
+}
+
+.descriptionText{
+    border: solid 5px rgb(7, 100, 66);
+    background-color: rgb(182, 224, 208);
+    padding: 0px 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,6 +40,8 @@ h2, h3, h4, h5, h6 {
 
 button{
     background-color: crimson;
+    display: block;
+    margin: 10px auto;
 }
 
 .home{
@@ -24,12 +51,20 @@ button{
 }
 
 .navigation{
-    color:deeppink;
+    color:chartreuse;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 30px;
+    background-color: rgb(182, 224, 208);
+    border: solid 5px rgb(7, 100, 66);
 }
 
 ul{
     font-style: italic;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border: solid 5px rgb(7, 100, 66);
 }
